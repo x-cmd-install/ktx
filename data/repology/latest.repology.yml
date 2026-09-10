@@ -1,0 +1,288 @@
+- repo: alpine_edge
+  subrepo: testing
+  srcname: ktx
+  binname: ktx
+  visiblename: ktx
+  version: 4.3.2
+  origversion: 4.3.2-r1
+  status: outdated
+  summary: KTX (Khronos Texture) tools and libraries
+  maintainers:
+    - alexandre_mutel@live.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: ktx
+  binname: ktx-dev
+  visiblename: ktx-dev
+  version: 4.3.2
+  origversion: 4.3.2-r1
+  status: outdated
+  summary: KTX (Khronos Texture) tools and libraries (development files)
+  maintainers:
+    - alexandre_mutel@live.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: ktx
+  binname: ktx-libs
+  visiblename: ktx-libs
+  version: 4.3.2
+  origversion: 4.3.2-r1
+  status: outdated
+  summary: KTX (Khronos Texture) shared library
+  maintainers:
+    - alexandre_mutel@live.com
+  licenses:
+    - Apache-2.0
+- repo: conancenter
+  srcname: ktx
+  visiblename: ktx
+  version: 4.4.2
+  origversion: null
+  status: newest
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.42"
+  origversion: 1.42+dfsg-3
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: community
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.44"
+  origversion: 1.44-0
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - games
+- repo: deepin_25
+  subrepo: community
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.44"
+  origversion: 1.44-0
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: freebsd
+  srcname: games/ktx
+  binname: ktx
+  visiblename: games/ktx
+  version: "1.47"
+  origversion: null
+  status: outdated
+  summary: Kombat Teams eXtreme is a popular QuakeWorld server modification
+  maintainers:
+    - vvd@freebsd.org
+  categories:
+    - games
+- repo: parrot
+  subrepo: parrot/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - games
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.42"
+  origversion: 1.42+dfsg-3
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.42"
+  origversion: 1.42+dfsg-3
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: ktx
+  binnames:
+    - ktx
+  visiblename: ktx
+  version: "1.45"
+  origversion: 1.45-1
+  status: outdated
+  maintainers:
+    - debian@rocketjump.eu
+  categories:
+    - universe/misc
+- repo: vcpkg
+  srcname: ktx
+  visiblename: ktx
+  version: 4.4.2
+  origversion: null
+  status: newest
+  summary: The Khronos KTX library and tools.
+- repo: xrepo
+  srcname: ktx
+  visiblename: ktx
+  version: 4.4.0
+  origversion: null
+  status: legacy
+  summary: KTX (Khronos Texture) Library and Tools
+  licenses:
+    - Apache-2.0
+- repo: xrepo
+  srcname: ktx
+  visiblename: ktx
+  version: 4.4.2
+  origversion: null
+  status: newest
+  summary: KTX (Khronos Texture) Library and Tools
+  licenses:
+    - Apache-2.0
